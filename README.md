@@ -29,15 +29,7 @@ python segment/predict.py --img 640 --weights Local/Desktop/BitewingNumberingSeg
 
 </details>
 <details>
-  <summary>Classification Usage Examples &nbsp;<a href="https://colab.research.google.com/github/ultralytics/yolov5/blob/master/classify/tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></summary>
-
-
-
-
-
-
-
-
+  
 ### Checkpoint
 
 | Model                                                                                          
