@@ -70,61 +70,8 @@ and [datasets](https://github.com/ultralytics/yolov5/tree/master/data) download 
 
 
 
-### Pretrained Checkpoints
+### Checkpoint
 
-| Model                                                                                           | size<br><sup>(pixels) | mAP<sup>val<br>50-95 | mAP<sup>val<br>50 | Speed<br><sup>CPU b1<br>(ms) | Speed<br><sup>V100 b1<br>(ms) | Speed<br><sup>V100 b32<br>(ms) | params<br><sup>(M) | FLOPs<br><sup>@640 (B) |
-| ----------------------------------------------------------------------------------------------- | --------------------- | -------------------- | ----------------- | ---------------------------- | ----------------------------- | ------------------------------ | ------------------ | ---------------------- |
-| [YOLOv5n](https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5n.pt)   
-
-<details>
-  <summary>Segmentation Usage Examples &nbsp;<a href="https://colab.research.google.com/github/ultralytics/yolov5/blob/master/segment/tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></summary>
-
-
-### Predict
-
-Use pretrained YOLOv5m-seg.pt to predict bus.jpg:
-
-```bash
-python segment/predict.py --weights yolov5m-seg.pt --source data/images/bus.jpg
-```
-
-```python
-model = torch.hub.load(
-    "ultralytics/yolov5", "custom", "yolov5m-seg.pt"
-)  # load from PyTorch Hub (WARNING: inference not yet supported)
-```
-
-
-</details>
-
-<br>
-
-We trained YOLOv5-cls classification models on ImageNet for 90 epochs using a 4xA100 instance, and we trained ResNet and EfficientNet models alongside with the same default training settings to compare. We exported all models to ONNX FP32 for CPU speed tests and to TensorRT FP16 for GPU speed tests. We ran all speed tests on Google [Colab Pro](https://colab.research.google.com/signup) for easy reproducibility.
-
-| Model                                                                                              | size<br><sup>(pixels) | acc<br><sup>top1 | acc<br><sup>top5 | Training<br><sup>90 epochs<br>4xA100 (hours) | Speed<br><sup>ONNX CPU<br>(ms) | Speed<br><sup>TensorRT V100<br>(ms) | params<br><sup>(M) | FLOPs<br><sup>@224 (B) |
-| -------------------------------------------------------------------------------------------------- | --------------------- | ---------------- | ---------------- | -------------------------------------------- | ------------------------------ | ----------------------------------- | ------------------ | ---------------------- |
-| [YOLOv5n-cls](https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5n-cls.pt) 
-
-
-</details>
-
-<details>
-  <summary>Classification Usage Examples &nbsp;<a href="https://colab.research.google.com/github/ultralytics/yolov5/blob/master/classify/tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></summary>
-
-
-### Predict
-
-Use pretrained YOLOv5s-cls.pt to predict bus.jpg:
-
-```bash
-python classify/predict.py --weights yolov5s-cls.pt --source data/images/bus.jpg
-```
-
-```python
-model = torch.hub.load(
-    "ultralytics/yolov5", "custom", "yolov5s-cls.pt"
-)  # load from PyTorch Hub
-```
-
-
+| Model                                                                                          
+| [bitewingsegnumbering.pt](https://drive.usercontent.google.com/download?id=181tCVWdq2MUv35wiDoGmNEp9APeT5-m4&export=download&authuser=0)   
 
