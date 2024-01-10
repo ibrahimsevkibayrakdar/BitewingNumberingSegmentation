@@ -29,8 +29,7 @@ After determining the test data and the location of the model, the following tes
 ```python
 python segment/predict.py --img 640 --weights Local/Desktop/BitewingNumberingSegmentation/checkpoints/bitewing_numbering.pt --source Local/Desktop/radiography/test/images --hide-conf --agnostic-nms --device 0 -- --line-thickness 1
 
-</details>
-<details>
+
 ```  
  ### Checkpoint
 
