@@ -31,6 +31,6 @@ import torch
 
 ### Checkpoint
 
-#Model                                                                                          
-[bitewingsegnumbering.pt](https://drive.usercontent.google.com/download?id=181tCVWdq2MUv35wiDoGmNEp9APeT5-m4&export=download&authuser=0)   
+| Model                                                                                          
+| [bitewingsegnumbering.pt](https://drive.usercontent.google.com/download?id=181tCVWdq2MUv35wiDoGmNEp9APeT5-m4&export=download&authuser=0)     
 
