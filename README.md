@@ -28,9 +28,26 @@ pip install -r requirements.txt  # install
 import torch
 
 </details>
+<details>
+  <summary>Classification Usage Examples &nbsp;<a href="https://colab.research.google.com/github/ultralytics/yolov5/blob/master/classify/tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></summary>
+
+
+### Predict
+
+Use pretrained YOLOv5s-cls.pt to predict bus.jpg:
+
+```bash
+python classify/predict.py --weights yolov5s-cls.pt --source data/images/bus.jpg
+```
+
+```python
+model = torch.hub.load(
+    "ultralytics/yolov5", "custom", "yolov5s-cls.pt"
+)  # load from PyTorch Hub
+```
 
 ### Checkpoint
 
 | Model                                                                                          
-| [bitewingsegnumbering.pt](https://drive.usercontent.google.com/download?id=181tCVWdq2MUv35wiDoGmNEp9APeT5-m4&export=download&authuser=0)     
+| [bitewingsegnumbering.pt](https://drive.usercontent.google.com/download?id=181tCVWdq2MUv35wiDoGmNEp9APeT5-m4&export=download&authuser=0)    
 
