@@ -26,12 +26,12 @@ pip install -r requirements.txt  # install
 
 ```python
 python segment/predict.py --img 640 --weights Local/Desktop/BitewingNumberingSegmentation/checkpoints/bitewing_numbering.pt --source Local/Desktop/radiography/test/images --hide-conf --agnostic-nms --device 0 -- --line-thickness 1
-```
+
 </details>
 <details>
-  
+```  
  ### Checkpoint
 
- | Model                                                                                          
- | [bitewingsegnumbering.pt](https://drive.usercontent.google.com/download?id=181tCVWdq2MUv35wiDoGmNEp9APeT5-m4&export=download&authuser=0)    
+Model                                                                                          
+ [bitewingsegnumbering.pt](https://drive.usercontent.google.com/download?id=181tCVWdq2MUv35wiDoGmNEp9APeT5-m4&export=download&authuser=0)    
 
